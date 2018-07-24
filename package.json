@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "version": "npm version patch && npm publish"
+    "version": "npm version patch && git add -a && git commit -m \"version\" && git push origin master && npm publish"
   },
   "author": "",
   "license": "ISC",
